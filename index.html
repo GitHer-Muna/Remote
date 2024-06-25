@@ -1,0 +1,40 @@
+<!-- login page for the user to enter their username and password. -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="loginbox">
+        <img src="avatar.png" class="avatar">
+        <h1>Login Here</h1>
+        <form action="login.php" method="post">
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username">
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password">
+            <input type="submit" name="submit" value="Login">
+            <a href="register.php">Don't have an account?</a>
+        </form>
+    </div>
+</body>
+</html>
+
+<!-- home page for the user to view their profile. -->  
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="homebox">
+        <img src="avatar.png" class="avatar">
+        <h1>Welcome</h1>
+        <form action="logout.php" method="post">
+            <input type="submit" name="submit" value="Logout">
+        </form>
+    </div>
+</body>
+</html>
